@@ -1,19 +1,17 @@
-var list = [];
-
 $(document).ready(function() {
   $("form#list").submit(function(event) {
-    var userInput = $("input").val();
-    var items = userInput.split(" ");
-    var list = items.map(function(item) {
-      return item.toUpperCase();
-    });
-    list.sort();
-    list.forEach(function(item) {
-      $("#result").append("<li>" + item + "</li>");
-    });
 
-    $("form#list").hide();
 
     event.preventDefault();
   });
 });
+function toRoman(num) {
+  var chars = [['','I','II','III','IV','V','VI','VII','VIII','IX'],['','X','XX','XXX','XL','L','LX','LXX','LXXX','XC'],['','C','CC','CCC','CD','D','DC','DCC','DCCC','CM'],['','M','MM','MMM']]
+  var output=[];
+  var j = 0;
+  for (var i=((num.length)-1); i>-1;i--){
+    output.push(chars[i][num[j]]);
+    j+=1;
+  }
+  return output;
+}
