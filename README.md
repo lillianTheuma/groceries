@@ -1,5 +1,5 @@
-# PizzaOrder - Lillian Theuma
-This portfolio is presented as a solution to the project guidelines described in
+# Groceries - Lillian Theuma
+This repository is presented as a roman groceries site, it convers your numbers into roman numerals.
 
 # TABLE OF CONTENTS
 ```
@@ -17,7 +17,7 @@ This portfolio is presented as a solution to the project guidelines described in
 - License Information
 ```
 ## Repository
-* This project can be found at https://github.com/lillianTheuma/Portfolio
+* This project can be found at https://github.com/lillianTheuma/groceries
 
 ## Requirements
 * A FTP server
@@ -30,19 +30,19 @@ AND
 * Open terminal, and navigate to a directory of your choice, then use the following command to clone files to local machine.
 
 ```
-git clone https://github.com/lillianTheuma/PizzaOrder
+git clone https://github.com/lillianTheuma/groceries
 ```
 
 ## Setup without GIT
-* Navigate to https://github.com/lillianTheuma/PizzaOrder on a web browser
+* Navigate to https://github.com/lillianTheuma/groceries on a web browser
 * Find the bottom labeled "clone or download", and click it to open a drop-down menu
 * Click Download Now on the drop-down menu
 * Extract contents of .zip folder into directory of your choice
 
 # Usage
-If using on a local machine, open (./PizzaOrder/index.html)
+If using on a local machine, open (./groceries/index.html)
 OR
-If using on an FTP, direct users to (./PizzaOrder/index.html)
+If using on an FTP, direct users to (./groceries/index.html)
 
 Navigate between project files with the drop-down menu on the upper navbar. Each project is labeled according to their week.
 
